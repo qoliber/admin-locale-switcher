@@ -1,29 +1,27 @@
 {
-  "name": "enanobots/admin-locale-switcher",
-  "description": "Magento 2 Admin Locale Switcher",
-  "homepage": "https://github.com/enanobots/admin-locale-switcher",
-  "type": "magento2-module",
-  "license": "MIT",
+  "name": "qoliber/admin-locale-switcher",
+  "version": "2.0.0",
+  "source": {
+    "type": "git",
+    "url": "git@github.com:qoliber/admin-locale-switcher.git",
+    "reference": "main"
+  },
   "authors": [
     {
-      "email": "nanobotsecommerce@gmail.com",
-      "name": "eCommerce Nanobots"
-    },
-    {
-      "name": "Jakub Winkler",
-      "email": "jwinkler@qsolutionsstudio.com"
+      "name": "qoliber",
+      "email": "info@qoliber.com"
     }
   ],
-  "minimum-stability": "dev",
   "require": {
-    "php": ">=7.3"
+    "php": ">=8.1"
   },
+  "license": "MIT",
   "autoload": {
     "files": [
-      "src/registration.php"
+      "registration.php"
     ],
     "psr-4": {
-      "Nanobots\\AdminLocaleSwitcher\\": "src/"
+      "Qoliber\\AdminLocaleSwitcher\\": ""
     }
   }
 }

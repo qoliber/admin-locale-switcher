@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:App/etc/routes.xsd">
     <router id="admin">
-        <route frontName="nanobots_adminlocale" id="nanobots_adminlocale">
-            <module name="Nanobots_AdminLocaleSwitcher" />
+        <route frontName="qoliber_adminlocale" id="qoliber_adminlocale">
+            <module name="Qoliber_AdminLocaleSwitcher" />
         </route>
     </router>
 </config>

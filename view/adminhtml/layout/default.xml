@@ -1,22 +1,22 @@
 <?xml version="1.0"?>
 <!--
 /**
- * Copyright © Q-Solutions Studio: eCommerce Nanobots. All rights reserved.
+ * Copyright © Qoliber. All rights reserved.
  *
- * @category    Nanobots
- * @package     Nanobots_AdminLocaleSwitcher
- * @author      Jakub Winkler <jwinkler@qsolutionsstudio.com
+ * @category    Qoliber
+ * @package     Qoliber_AdminLocaleSwitcher
+ * @author      Jakub Winkler <jwinkler@qoliber.com
  */
  -->
 <page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
     <body>
         <referenceContainer name="header.inner.right">
-            <block class="Nanobots\AdminLocaleSwitcher\Block\Adminhtml\Switcher"
+            <block class="Qoliber\AdminLocaleSwitcher\Block\Adminhtml\Switcher"
                    name="admin.locale.switcher" after="user" />
         </referenceContainer>
         <referenceContainer name="header">
             <block class="Magento\Backend\Block\Template"
-                   name="admin.locale.dropdown" template="Nanobots_AdminLocaleSwitcher::dropdown.phtml"/>
+                   name="admin.locale.dropdown" template="Qoliber_AdminLocaleSwitcher::dropdown.phtml"/>
         </referenceContainer>
 
         <move element="admin.locale.dropdown" after="-" destination="header.inner.right" />

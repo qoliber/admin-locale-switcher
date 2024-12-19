@@ -1,10 +1,10 @@
 <?php
 /**
- * Copyright © Q-Solutions Studio: eCommerce Nanobots. All rights reserved.
+ * Copyright © Qoliber. All rights reserved.
  *
- * @category    Nanobots
- * @package     Nanobots_AdminLocaleSwitcher
- * @author      Jakub Winkler <jwinkler@qsolutionsstudio.com
+ * @category    Qoliber
+ * @package     Qoliber_AdminLocaleSwitcher
+ * @author      Jakub Winkler <jwinkler@qoliber.com
  */
 
 use Magento\Backend\Block\Template;
@@ -12,7 +12,7 @@ use Magento\Backend\Block\Template;
 /** @var Template $block */
 ?>
 <div class="locale-placeholder">
-    <form id="locale-form" method="POST" action="<?= $block->getUrl('nanobots_adminlocale/user/updateLocale'); ?>">
+    <form id="locale-form" method="POST" action="<?= $block->getUrl('qoliber_adminlocale/user/updateLocale'); ?>">
         <input type="hidden" name="form_key" value="<?php echo $block->getFormKey() ?>"/>
         <div class="admin-locale-options">
             <label>
